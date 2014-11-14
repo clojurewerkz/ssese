@@ -2,7 +2,7 @@
   :description "Clojure Server-Sent Events (SSE) client"
   :dependencies [[org.clojure/clojure       "1.6.0"]
                  [io.opensensors/sse-client "1.0.0-SNAPSHOT"]]
-  :profiles {:1.7    {:dependencies [[org.clojure/clojure "1.7.0-alpha3"]]}
+  :profiles {:1.7    {:dependencies [[org.clojure/clojure "1.7.0-alpha4"]]}
              :master {:dependencies [[org.clojure/clojure "1.7.0-master-SNAPSHOT"]]}
              :dev {:resource-paths ["test/resources"]
                    :plugins [[codox "0.8.10"]]
