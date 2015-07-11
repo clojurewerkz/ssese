@@ -3,7 +3,7 @@
   :dependencies [[org.clojure/clojure       "1.6.0"]
                  [io.opensensors/sse-client "1.0.0-SNAPSHOT"]]
   :profiles {:1.7    {:dependencies [[org.clojure/clojure "1.7.0"]]}
-             :master {:dependencies [[org.clojure/clojure "1.7.0-master-SNAPSHOT"]]}
+             :master {:dependencies [[org.clojure/clojure "1.8.0-master-SNAPSHOT"]]}
              :dev {:resource-paths ["test/resources"]
                    :plugins [[codox "0.8.10"]]
                    :dependencies [[org.webbitserver/webbit "0.4.15"]]
